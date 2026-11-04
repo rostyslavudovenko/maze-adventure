@@ -1,0 +1,22 @@
+.app {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 2rem;
+}
+
+.app__content {
+  text-align: center;
+}
+
+.app__content h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  line-height: 1;
+}
+
+.app__content p {
+  margin: 1rem 0 0;
+  color: #94a3b8;
+  font-size: 1.125rem;
+}
