@@ -1,0 +1,1 @@
+export { generateMaze } from "./generateMaze";
